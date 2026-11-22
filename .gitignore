@@ -1,0 +1,27 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+data/
+node_modules/
+frontend/dist/
+test-results/
+*.log
+*.tsbuildinfo
+
+# Local databases, coverage results and editor files
+*.db
+*.sqlite
+*.sqlite3
+*.db-*
+*.sqlite-*
+*.sqlite3-*
+playwright-report/
+.coverage
+coverage/
+.DS_Store
+.vscode/
+
